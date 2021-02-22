@@ -41,29 +41,29 @@
                                     <constraint firstAttribute="height" constant="100" id="qOf-1i-glE"/>
                                 </constraints>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="oAc-uF-0cc">
-                                <rect key="frame" x="47" y="290" width="320" height="80"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="82" translatesAutoresizingMaskIntoConstraints="NO" id="oAc-uF-0cc">
+                                <rect key="frame" x="5" y="262" width="404" height="80"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KhV-TV-0If">
                                         <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="80" id="GtX-4e-OZb"/>
-                                            <constraint firstAttribute="height" constant="80" id="nUO-cN-PLF"/>
+                                            <constraint firstAttribute="height" constant="80" id="7KQ-ZD-aj2"/>
+                                            <constraint firstAttribute="width" constant="80" id="Mhg-5i-j9b"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHI-Hp-3XN">
-                                        <rect key="frame" x="120" y="0.0" width="80" height="80"/>
+                                        <rect key="frame" x="162" y="0.0" width="80" height="80"/>
                                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RcM-R1-L1Y">
-                                        <rect key="frame" x="240" y="0.0" width="80" height="80"/>
+                                        <rect key="frame" x="324" y="0.0" width="80" height="80"/>
                                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <nil key="textColor"/>
@@ -90,7 +90,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="currentLetterLabel" destination="ESH-50-apu" id="qW6-Ly-5IO"/>
+                        <outlet property="currentLetterLabel" destination="2iT-2D-Pi3" id="c6F-tr-Aem"/>
                         <outlet property="stackView" destination="oAc-uF-0cc" id="GOL-rZ-Ggu"/>
                         <outletCollection property="wordLabel" destination="KhV-TV-0If" collectionClass="NSMutableArray" id="tBN-31-jD4"/>
                         <outletCollection property="wordLabel" destination="tHI-Hp-3XN" collectionClass="NSMutableArray" id="PLm-KS-950"/>
@@ -104,7 +104,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-81.159420289855078" y="68.973214285714278"/>
+            <point key="canvasLocation" x="-65.217391304347828" y="22.767857142857142"/>
         </scene>
     </scenes>
     <resources>
